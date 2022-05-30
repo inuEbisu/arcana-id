@@ -1,6 +1,6 @@
 import { Buffer } from 'buffer';
 const encode_base64 = (str: string) => Buffer.from(str, 'binary').toString('base64');
-const apiUrl = 'https://acn.arcaea.icu/api/'
+const apiUrl = 'https://api.arcana.icu/api/'
 
 export interface AuthResponse {
   success: boolean,
